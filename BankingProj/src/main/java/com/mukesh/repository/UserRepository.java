@@ -7,6 +7,10 @@ import com.mukesh.domain.entity.User;
 
 import java.util.Optional;
 
+/**
+ * @author mukesh
+ *
+ */
 @Repository("userRepository")
 public interface UserRepository extends JpaRepository<User, String> {
 

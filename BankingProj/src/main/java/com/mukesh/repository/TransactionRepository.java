@@ -7,6 +7,10 @@ import com.mukesh.domain.entity.Transaction;
 
 import java.util.List;
 
+/**
+ * @author mukesh
+ *
+ */
 @Repository
 public interface TransactionRepository extends JpaRepository<Transaction, String> {
 

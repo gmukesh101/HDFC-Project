@@ -6,6 +6,10 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 
 import com.mukesh.auth.CustomUserDetails;
 
+/**
+ * @author mukesh
+ *
+ */
 @ControllerAdvice
 public class CurrentUserAdviceController {
 

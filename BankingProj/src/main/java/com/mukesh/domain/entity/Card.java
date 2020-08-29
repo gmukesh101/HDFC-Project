@@ -6,6 +6,10 @@ import com.mukesh.domain.enums.Currency;
 
 import java.util.List;
 
+/**
+ * @author mukesh
+ *
+ */
 @Entity
 @Table(name="cards")
 public class Card {

@@ -2,6 +2,10 @@ package com.mukesh.domain.entity;
 
 import javax.persistence.*;
 
+/**
+ * @author mukesh
+ *
+ */
 @Entity
 @Table(name = "transactions")
 public class Transaction {

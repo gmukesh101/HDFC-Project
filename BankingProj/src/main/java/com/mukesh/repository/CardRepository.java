@@ -7,6 +7,10 @@ import com.mukesh.domain.entity.Card;
 
 import java.util.List;
 
+/**
+ * @author mukesh
+ *
+ */
 @Repository
 public interface CardRepository extends JpaRepository<Card, String> {
 

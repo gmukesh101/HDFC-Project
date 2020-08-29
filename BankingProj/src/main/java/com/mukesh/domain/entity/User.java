@@ -5,6 +5,10 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * @author mukesh
+ *
+ */
 @Entity
 @Table(name = "users")
 public class User {

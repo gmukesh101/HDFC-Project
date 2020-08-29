@@ -8,6 +8,10 @@ import com.mukesh.forms.UserCreateForm;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * @author mukesh
+ *
+ */
 public interface UserService {
 
     Optional<User> findUserByUsername(String username);

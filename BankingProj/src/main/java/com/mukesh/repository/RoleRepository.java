@@ -5,6 +5,10 @@ import org.springframework.stereotype.Repository;
 
 import com.mukesh.domain.entity.Role;
 
+/**
+ * @author mukesh
+ *
+ */
 @Repository
 public interface RoleRepository extends JpaRepository<Role, String> {
     Role findByRoleName(String roleName);

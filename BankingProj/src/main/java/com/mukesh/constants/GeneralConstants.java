@@ -1,5 +1,9 @@
 package com.mukesh.constants;
 
+/**
+ * @author mukesh
+ *
+ */
 public class GeneralConstants {
 
     public static final String ROLE_PREFFIX = "ROLE_";

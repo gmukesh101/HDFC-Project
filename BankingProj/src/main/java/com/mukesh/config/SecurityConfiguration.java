@@ -16,6 +16,10 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 import com.mukesh.repository.UserRepository;
 
+/**
+ * @author mukesh
+ *
+ */
 @Configuration
 @EnableWebSecurity
 @EnableJpaRepositories(basePackageClasses = UserRepository.class)
